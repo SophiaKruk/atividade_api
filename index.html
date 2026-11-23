@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Mural de Publicações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Mural de Publicações</h1>
+        <p>Confira as publicações disponíveis!</p>
+    </header>
+    
+<main>
+    <button id="btn-carregar" type="button">
+        Carregar publicações
+    </button>
+
+    <button id="btn-ordenar" type="button">
+        Ordenar por título
+    </button>
+
+    <button id="btn-atualizar" type="button">
+        Atualizar publicações
+    </button>
+
+    <input
+        id="filtro"
+        type="search"
+        placeholder="Filtrar pelo título"
+    >
+
+    <p id="contador">Publicações visíveis: 0</p>
+
+    <p id="mensagem" role="status"></p>
+
+    <section id="lista-posts" aria-label="Publicações"></section>
+
+    <hr>
+    <section id="detalhes"></section>
+</main>
+
+    <footer><p>Projeto desenvolvido para a atividade de API e Fetch - SENAI</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
